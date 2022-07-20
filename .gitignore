@@ -9,3 +9,5 @@ bin/
 
 # Build tools
 build/
+EXE/tools/openocd-picoprobe/scripts/target/zynq_7000.cfg
+EXE/tools/zadig.exe
