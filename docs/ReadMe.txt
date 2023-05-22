@@ -32,13 +32,12 @@ Raspberry Pi Pico website.
 Pico Project Generator
 This is a Python application to help you create new Pico projects.
 
-tools\openocd-picoprobe\openocd.exe
+tools\openocd\openocd.exe
 OpenOCD with picoprobe support. Launch from the Developer Command Prompt for
 Pico using a command like this:
-  openocd -f interface/picoprobe.cfg -f target/rp2040.cfg
+  openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg
 
-tools\zadig.exe
-Utility for replacing USB drivers - helpful when using OpenOCD with picoprobe.
+You can get the latest Picoprobe binaries from https://github.com/raspberrypi/picoprobe/releases.
 
 Uninstall
 Just delete this directory. Any other software that you installed using Pico
